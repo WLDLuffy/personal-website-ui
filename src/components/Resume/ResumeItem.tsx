@@ -3,7 +3,7 @@ import dbsLogo from "./DBS_logo.png";
 import chevronLogo from "./chevron-logo.png";
 import "./Resume.css";
 
-const ResumeItem = (resume) => {
+const ResumeItem = (resume: any) => {
 	return (
 		<div className="container-sm justify-content-center">
 			<div className="container-sm resume-item">
