@@ -16,13 +16,16 @@ hr {
 }
 
 .full-stack {
-	font-size: 2000%;
+
 	position: absolute;
 	z-index: -1;
-	display: block;
 	color: #4b5d67;
+	font-size: 400%;
+	font-weight: 900;
 	width: 98%;
 	height: 100%;
+
+
 
 	
 }

@@ -10,7 +10,7 @@ interface IResumeItemProps {
 const ResumeItem: FC<IResumeItemProps> = (props: any) => {
 	return (
 		<div className="mb-3 container" style={{ marginBottom: "20px" }}>
-			<div className="row justify-content-center">
+			<div className="row d-flex justify-content-center">
 				<div className="col-4">
 					<img src={props.resumeDetails.imageUrl} alt="" className="resume-image" />
 				</div>

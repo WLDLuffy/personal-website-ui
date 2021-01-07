@@ -11,7 +11,9 @@ const Header: FC<IHeaderProps> = () => {
 
 	return (
 		<div className="container-fluid justify-content-center introduction" style={{ marginBottom: '5%' }}>
-			<p className="full-stack">FULL STACK</p>
+
+			{/* <p className="full-stack">FULL STACK</p> */}
+
 			<div className="container">
 				<img className="selfie" src={selfie} alt='selfie'></img>
 			</div>
