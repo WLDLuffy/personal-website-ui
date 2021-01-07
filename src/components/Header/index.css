@@ -11,13 +11,18 @@ hr {
 	margin-bottom: 7%;
 }
 
-.introduction {
-	background-color: #c3edea;
-	/* background-image: url(IMG_9060.JPG); */
-	height: 95vh !important;
-	color: white;
-}
-
 .self-intro {
 	padding-bottom: 10px;
+}
+
+.full-stack {
+	font-size: 2000%;
+	position: absolute;
+	z-index: -1;
+	display: block;
+	color: #4b5d67;
+	width: 98vw;
+	height: 100%;
+
+	
 }

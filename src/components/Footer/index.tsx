@@ -1,11 +1,16 @@
-import React from "react";
-import "./Footer.css";
+import React, { FC } from "react";
+import "./index.css";
 
-const Footer = () => {
+interface IFooterProps {
+
+};
+
+
+const Footer: FC<IFooterProps> = () => {
 	return (
-		<div className="footer center">
-			Connect with me!
-			<footer className="white-section" id="footer">
+		<div className="footer">
+			<p style={{ color: "white" }}>Connect with me!</p>
+			<footer className="" id="footer">
 				<a className="footer-icons" href="https://www.twitter.com">
 					<i className="fab fa-twitter"></i>
 				</a>
@@ -18,8 +23,9 @@ const Footer = () => {
 				<a className="footer-icons" href="mailto:wongweilun95@gmail.com">
 					<i className="fas fa-envelope"></i>
 				</a>
-
-				<p>© Copyright 2020 Weilun</p>
+				<a className="footer-icons" href="https://www.linkedin.com/in/wei-lun-wong-448baa189/">
+					<i className="fab fa-linkedin"></i>
+				</a>
 			</footer>
 		</div>
 	);
