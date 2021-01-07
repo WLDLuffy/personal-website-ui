@@ -7,7 +7,7 @@ interface INavbarProps {
 
 const Navbar: FC<INavbarProps> = () => {
 	return (
-		<div>
+		<div className="navigation">
 			<nav className="navbar navbar-dark bg-dark">
 				<div className="container justify-content-center">
 					<ul className="nav">
