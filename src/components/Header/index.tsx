@@ -1,4 +1,4 @@
-import React, { FC, useState, useEffect } from "react";
+import React, { FC } from "react";
 import selfie from "../../assets/CV Photo.png";
 import "./index.css";
 import { skills } from '../../constants/resume.constants';
@@ -9,19 +9,17 @@ interface IHeaderProps {
 
 const Header: FC<IHeaderProps> = () => {
 
-	const [allSkills, setAllSkills] = useState<any>(skills);
-
 	return (
 		<div className="container-fluid justify-content-center introduction" style={{ marginBottom: '5%' }}>
 			<p className="full-stack">FULL STACK</p>
 			<div className="container">
-				<img className="selfie" src={selfie} alt=''></img>
+				<img className="selfie" src={selfie} alt='selfie'></img>
 			</div>
 			<br />
 			<br />
 			<div className="container self-intro">
 				<div className='horizontal-divider flex'>
-					{skills.map((skill) => { return <img style={{ height: "30px", width: "30px", margin: "5px" }} src={skill.logo} /> })}
+					{skills.map((skill) => { return <img style={{ height: "30px", width: "30px", margin: "5px" }} src={skill.logo} alt={skill.skill} /> })}
 				</div>
 				<br />
 				<br />

@@ -1,11 +1,11 @@
-import React, { FC, useEffect, useState } from 'react';
+import React, { FC } from 'react';
 import { introduction } from '../../constants/resume.constants';
 
 interface IIntroductionProps {
 }
 
 const Introduction: FC<IIntroductionProps> = () => {
-    const [selfDescription, setSelfDescription] = useState<any>(introduction)
+
     return (
         <div className="container-fluid introduction" style={{ justifyContent: 'space-between', marginBottom: '1%' }}>
             <div className="container">

@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import Layout from '../components/Layout';
-import Introduction from '../components/Header';
-import Resume from '../components/Resume';
-import Footer from '../components/Footer'
+// import Introduction from '../components/Header';
+// import Resume from '../components/Resume';
+// import Footer from '../components/Footer'
 
 interface IBlogPageProps {
 
