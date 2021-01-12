@@ -1,14 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import HomePage from '../pages/HomePage';
-import BlogPage from '../pages/BlogPage';
-import ResumePage from '../pages/ResumePage';
-import ContactPage from '../pages/ContactPage';
+import { HomePage, BlogPage, ResumePage, ContactPage } from '../pages'
+import { AdminDashboardPage, AdminBlogPage, AdminResumePage } from '../pagesAdmin'
+
 import "../App.css";
-
-interface IAppProps {
-
-}
 
 export default () => {
     return (
@@ -19,6 +14,9 @@ export default () => {
                     <Route path='/blog' component={BlogPage} />
                     <Route path='/resume' component={ResumePage} />
                     <Route path='/contact' component={ContactPage} />
+                    <Route path='/admin/home' component={AdminDashboardPage} />
+                    <Route path='/admin/blog' component={AdminBlogPage} />
+                    <Route path='/admin/resume' component={AdminResumePage} />
                 </Switch>
             </div>
         </Router>

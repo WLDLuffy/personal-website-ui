@@ -1,0 +1,1 @@
+export const LOCAL_BACKEND_URL: string = 'http://localhost:8080';

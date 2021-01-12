@@ -1,13 +1,22 @@
-import React, { FC } from "react";
+import React, { FC, useEffect, useState } from "react";
 import ResumeItem from "./ResumeItem";
 import "./index.css";
-import { resume } from "../../constants/resume.constants"
+import { resume } from "../../constants/resume.constants";
+import { getAllResumes } from "../../api/resume.api";
 
 interface IResumeProps {
 
 }
 
 const Resume: FC<IResumeProps> = () => {
+
+	const [currentResume, setCurrentResume] = useState<any>([])
+
+	useEffect(() => {
+		getAllResumes().then((res: any) => {
+			setCurrentResume(res);
+		})
+	}, [])
 
 	return (
 		<div className="container-fluid resume">
@@ -17,7 +26,7 @@ const Resume: FC<IResumeProps> = () => {
 			<br />
 			<br />
 			<div>
-				{resume.map((details: any) => { return <ResumeItem resumeDetails={details} /> })}
+				{resume.map((details: any, index: number) => { return <ResumeItem resumeDetails={details} key={index} /> })}
 			</div>
 			<hr />
 		</div>

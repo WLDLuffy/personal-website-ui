@@ -12,7 +12,7 @@ const Header: FC<IHeaderProps> = () => {
 	return (
 		<div className="container-fluid justify-content-center introduction" style={{ marginBottom: '5%' }}>
 
-			{/* <p className="full-stack">FULL STACK</p> */}
+			<div className="full-stack">FULL STACK</div>
 
 			<div className="container">
 				<img className="selfie" src={selfie} alt='selfie'></img>
@@ -21,7 +21,7 @@ const Header: FC<IHeaderProps> = () => {
 			<br />
 			<div className="container self-intro">
 				<div className='horizontal-divider flex'>
-					{skills.map((skill) => { return <img style={{ height: "30px", width: "30px", margin: "5px" }} src={skill.logo} alt={skill.skill} /> })}
+					{skills.map((skill, index) => { return <img style={{ height: "30px", width: "30px", margin: "5px" }} src={skill.logo} alt={skill.skill} key={index} /> })}
 				</div>
 				<br />
 				<br />
@@ -33,8 +33,9 @@ const Header: FC<IHeaderProps> = () => {
 					<h1> Weilun Wong </h1>
 					<p>a software developer</p>
 				</div>
-				<hr />
+
 			</div>
+			<hr />
 		</div>
 	);
 };

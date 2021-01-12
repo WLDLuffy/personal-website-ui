@@ -1,0 +1,9 @@
+.admin-side-bar {
+    background-color: '#172733'; 
+    color: '#B0B9C0'; 
+    height: '100%';
+    max-height: '100%'; 
+    min-width: '16rem'; 
+    position: 'absolute';
+
+}
