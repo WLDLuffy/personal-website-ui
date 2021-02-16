@@ -1,0 +1,13 @@
+.resume-word {
+
+
+	z-index: -1;
+	/* color: #4b5d67; */
+	color: #bbe1fa;
+	font-size: 8vw;
+	font-weight: 900;
+	opacity: 30%;
+	width: 97%;
+    text-align: left;
+	
+}

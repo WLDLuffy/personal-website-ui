@@ -1,10 +1,10 @@
 import React, { FC } from 'react';
 import Layout from '../components/Layout';
-import Introduction from '../components/Introduction';
-import Resume from '../components/Resume';
+import Introduction from '../components/HomePageComponents/Introduction';
+import Resume from '../components/HomePageComponents/Resume';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Contact from '../components/Contact';
+import Header from '../components/HomePageComponents/Header';
+import Contact from '../components/HomePageComponents/Contact';
 
 interface IHomePageProps {
 

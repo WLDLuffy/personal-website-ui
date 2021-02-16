@@ -1,0 +1,81 @@
+.selfie {
+	height: 25%;
+	width: 25%;
+	padding: 2%;
+	/* padding: 1%;
+	margin-top: 10%; */
+}
+
+
+hr {
+	width: 30%;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+.skills-icon {
+	height: 2%;
+	width: 2%;
+	margin: 0.5%;
+}
+
+.skill-set {
+	padding:  1%;
+}
+
+.title {
+	padding: 3%;
+}
+
+
+.full-stack {
+
+	position: absolute;
+	z-index: -1;
+	/* color: #4b5d67; */
+	color: #bbe1fa;
+	font-size: 15vw;
+	font-weight: 900;
+	opacity: 30%;
+	width: 97%;
+	
+}
+
+.header-class {
+
+}
+
+/* @media only screen and (max-width: 600px) {
+
+	[class*="full-stack"] {
+	  font-size: 80px;
+	}
+  }
+
+@media only screen and (min-width: 600px) {
+
+	[class*="full-stack"] {
+	  font-size: 120px;
+	}
+  }
+
+  @media only screen and (min-width: 850px) {
+
+	[class*="full-stack"] {
+	  font-size: 130px;
+	}
+  } */
+
+  /* @media only screen and (min-width: 1024px) {
+
+	[class*="header"] {
+	  height: 100vh;
+	}
+  }
+
+  @media only screen and (min-width: 1200px) {
+
+	[class*="header"] {
+	  height: 100vh;
+	}
+  } */

@@ -1,0 +1,18 @@
+.introduction-size {
+    padding: 20px;
+}
+
+
+/* @media only screen and (max-width: 600px) {
+
+	[class*="full-stack"] {
+	  font-size: 80px;
+	}
+  } */
+
+@media only screen and (min-width: 1200px) {
+
+	[class*="introduction-size"] {
+	  height: 50vh;
+	}
+}
