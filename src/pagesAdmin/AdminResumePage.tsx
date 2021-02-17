@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import AdminSideBar from '../components/AdminSideBar';
+import AdminSideBar from '../components/AdminComponents/AdminSideBar';
 
 interface IAdminResumePageProps {
 

@@ -2,6 +2,10 @@
     padding: 20px;
 }
 
+.btn-custom {
+	background-color: #2f6fdc;
+	color: white
+}
 
 /* @media only screen and (max-width: 600px) {
 
@@ -10,9 +14,9 @@
 	}
   } */
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
 
 	[class*="introduction-size"] {
 	  height: 50vh;
 	}
-}
+} */

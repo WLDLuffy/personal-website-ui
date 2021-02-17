@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import CVImage from '../../../assets/CV.png';
+import CVImage from '../../../../assets/CV.png';
 
 interface ICVProps {
 

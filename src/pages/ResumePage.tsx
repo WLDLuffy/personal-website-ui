@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import Layout from '../components/Layout';
-import Header from '../components/ResumePageComponents/Header';
+import Header from '../components/UserComponents/ResumePageComponents/Header';
 import Footer from '../components/Footer';
 import Canvas from '../features/Canvas';
-import CV from '../components/ResumePageComponents/CV'
+import CV from '../components/UserComponents/ResumePageComponents/CV'
 
 interface IResumePageProps {
 
@@ -12,13 +12,11 @@ interface IResumePageProps {
 
 const ResumePage: FC<IResumePageProps> = () => {
     return (
-        <div>
-            <Layout />
+        <Layout >
             <Header />
             <CV />
             <Footer />
-
-        </div >
+        </Layout>
     )
 }
 

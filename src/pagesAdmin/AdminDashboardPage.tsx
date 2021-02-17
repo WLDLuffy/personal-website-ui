@@ -1,5 +1,8 @@
 import React, { FC } from 'react';
-import AdminSideBar from '../components/AdminSideBar'
+import AdminSideBar from '../components/AdminComponents/AdminSideBar';
+import Layout from '../components/Layout';
+import TextEditor from '../features/TextEditor';
+import '../css/admin.css'
 
 interface IAdminDashboardPageProps {
 
@@ -8,9 +11,11 @@ interface IAdminDashboardPageProps {
 
 const AdminDashboardPage: FC<IAdminDashboardPageProps> = () => {
     return (
-        <div>
-            <AdminSideBar />
-        </div>
+        <AdminSideBar>
+            <Layout>
+                <TextEditor />
+            </Layout>
+        </AdminSideBar>
     )
 }
 

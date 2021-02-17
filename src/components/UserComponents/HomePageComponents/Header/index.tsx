@@ -1,7 +1,7 @@
 import React, { FC } from "react";
-import selfie from "../../../assets/CV Photo.png";
+import selfie from "../../../../assets/CV Photo.png";
 import "./index.css";
-import { skills } from '../../../constants/resume.constants';
+import { skills } from '../../../../constants/resume.constants';
 
 interface IHeaderProps {
 

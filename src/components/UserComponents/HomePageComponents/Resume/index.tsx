@@ -1,8 +1,8 @@
 import React, { FC, useEffect, useState } from "react";
 import ResumeItem from "./ResumeItem";
 import "./index.css";
-import { resume } from "../../../constants/resume.constants";
-import { getAllResumes } from "../../../api/resume.api";
+import { resume } from "../../../../constants/resume.constants";
+import { getAllResumes } from "../../../../api/resume.api";
 
 interface IResumeProps {
 

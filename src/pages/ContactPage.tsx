@@ -7,10 +7,11 @@ interface IContactPageProps {
 
 const ContactPage: FC<IContactPageProps> = () => {
     return (
-        <div>
-            <Layout />
+
+        <Layout>
             This is my contact page
-        </div>
+        </Layout>
+
     )
 }
 
