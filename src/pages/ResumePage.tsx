@@ -13,9 +13,11 @@ interface IResumePageProps {
 const ResumePage: FC<IResumePageProps> = () => {
     return (
         <Layout >
-            <Header />
-            <CV />
-            <Footer />
+            <div style={{ textAlign: 'center' }}>
+                <Header />
+                <CV />
+                <Footer />
+            </div>
         </Layout>
     )
 }

@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import AdminSideBar from '../components/AdminComponents/AdminSideBar';
 import Layout from '../components/Layout';
-import TextEditor from '../features/TextEditor';
+import Header from '../components/AdminComponents/AdminDashboardComponents/Header';
 import '../css/admin.css'
 
 interface IAdminDashboardPageProps {
@@ -13,8 +13,11 @@ const AdminDashboardPage: FC<IAdminDashboardPageProps> = () => {
     return (
         <AdminSideBar>
             <Layout>
-                <TextEditor />
+                <div style={{ textAlign: 'center' }}>
+                    <Header />
+                </div>
             </Layout>
+
         </AdminSideBar>
     )
 }

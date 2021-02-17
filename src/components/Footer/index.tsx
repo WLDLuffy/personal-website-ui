@@ -8,7 +8,7 @@ interface IFooterProps {
 
 const Footer: FC<IFooterProps> = () => {
 	return (
-		<div className="footer">
+		<div className="footer" style={{ textAlign: 'center' }}>
 			<p style={{ color: "white" }}>Connect with me!</p>
 			<footer className="" id="footer">
 				<a className="footer-icons" href="https://www.twitter.com">

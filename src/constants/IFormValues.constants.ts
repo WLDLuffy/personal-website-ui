@@ -1,29 +1,34 @@
 export interface IBlog {
-    UUID?: String;
-    Title: String;
-    PostContent: String;
+    UUID?: string;
+    Title: string;
+    PostContent: string;
+}
+
+export const IBlogValues = {
+    Title: '',
+    PostContent: ''
 }
 
 export interface IBlogOptional {
-    UUID?: String;
-    Title?: String;
-    PostContent?: String;
+    UUID?: string;
+    Title?: string;
+    PostContent?: string;
 }
 
 export interface IResume {
-    UUID?: String;
-    CompanyName: String;
-    PositionHeld: String;
-    Date: String;
-    Description: String;
-    ImageUrl: String;
+    UUID?: string;
+    CompanyName: string;
+    PositionHeld: string;
+    Date: string;
+    Description: string;
+    ImageUrl: string;
 }
 
 export interface IResumeOptional {
-    UUID?: String;
-    CompanyName?: String;
-    PositionHeld?: String;
-    Date?: String;
-    Description?: String;
-    ImageUrl?: String;
+    UUID?: string;
+    CompanyName?: string;
+    PositionHeld?: string;
+    Date?: string;
+    Description?: string;
+    ImageUrl?: string;
 }

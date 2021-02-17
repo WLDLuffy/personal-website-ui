@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import Layout from '../components/Layout';
 import AdminSideBar from '../components/AdminComponents/AdminSideBar';
 
 interface IAdminResumePageProps {
@@ -7,10 +8,13 @@ interface IAdminResumePageProps {
 
 const AdminResumePage: FC<IAdminResumePageProps> = () => {
     return (
-        <div>
-            <AdminSideBar />
+        <AdminSideBar>
+            <Layout>
+                <div style={{ textAlign: 'center' }}>
 
-        </div>
+                </div>
+            </Layout>
+        </AdminSideBar>
     )
 }
 

@@ -16,6 +16,20 @@ export const getAllBlogPosts = async () => {
     });
 };
 
+export const getOneBlogPostByUUID = async (UUID: string) => {
+    return new Promise((resolve, reject) => {
+        try {
+            axios.get(LOCAL_BACKEND_URL + '/api/blog/find/' + UUID).then((res: any) => {
+                resolve(res.data);
+            }).catch((e) => {
+                reject(e.response);
+            });
+        } catch (err) {
+            reject(err);
+        };
+    });
+};
+
 export const submitBlogPost = async (body: IBlog) => {
     return new Promise((resolve, reject) => {
         try {

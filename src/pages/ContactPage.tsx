@@ -9,7 +9,9 @@ const ContactPage: FC<IContactPageProps> = () => {
     return (
 
         <Layout>
-            This is my contact page
+            <div style={{ textAlign: 'center' }}>
+                This is my contact page
+            </div>
         </Layout>
 
     )
