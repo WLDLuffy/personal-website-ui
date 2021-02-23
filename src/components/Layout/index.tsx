@@ -15,6 +15,7 @@ const Layout: FC<ILayoutProps> = ({ children }) => {
 					<Link to={'/resume'}><li className="navigation-item" >RESUME</li></Link>
 					<Link to={'/blog'}><li className="navigation-item" >BLOG</li></Link>
 					<Link to={'/admin/home'}><li className="navigation-item" >ADMIN</li></Link>
+					<Link to={'/admin/home'}><li className="navigation-item" >CHARLES</li></Link>
 				</ul>
 			</nav>
 			{children}
